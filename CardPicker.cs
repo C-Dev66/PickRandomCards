@@ -9,6 +9,7 @@ namespace PickRandomCards
     class CardPicker
     {
         static Random random = new Random();
+
         public static string[] PickSomeCards(int numberOfCards)
         {
             string[] pickedCards = new string[numberOfCards];
